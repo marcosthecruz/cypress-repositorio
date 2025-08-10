@@ -8,7 +8,7 @@ Before(() => {
 After(() => {
   // Fecha o navegador se existir
   console.log('✅ [HOOK] after() - Início do hook'); // Aparece no terminal
-  cy.log('Mensagem visível no Dashboard do Cypress'); // Aparece no GUI
+  // cy.log('Mensagem visível no Dashboard do Cypress'); // Aparece no GUI
 
   cy.clearCookies();
   cy.clearLocalStorage();
